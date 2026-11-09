@@ -1,0 +1,1 @@
+document.querySelector('[data-language]')?.addEventListener('change',e=>{location.href=e.target.selectedOptions[0].dataset.href;});
